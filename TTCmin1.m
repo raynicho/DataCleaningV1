@@ -3,8 +3,6 @@
 % subject velocity is in mph
 function [minimum] = TTCmin1 (subject_acceleration, subject_velocity, subject_position_y, subject_position_x, fcw_position_y, fcw_position_x, intersection_number)
 
-minimum = 0;
-
 % find the size displacement between the vehicles
 % ford taurus
 subject_vehicle_length = 16.46;
